@@ -8,7 +8,18 @@ const PageContainer = (props) => {
     
     <Container className={containerStyles.wrapper}>
       <Header />
-      {props.children}
+      <Container className={containerStyles.wrapper + ' mui--text-center'}>
+        <Container className='mui--appbar-height' />
+        <Container>
+          <br />
+          <br />
+          <Container className={'mui--text-display3'}>
+            {props.children}
+          </Container>
+          <br/>
+          <br/>
+        </Container>
+      </Container>
     </Container>
   );
 };
