@@ -1,7 +1,7 @@
 /**
   * Content CSS
   */
-#content-wrapper {
+.wrapper {
   min-height: 100%;
 
   /* sticky footer */
@@ -14,7 +14,7 @@
 /**
   * Footer CSS
   */
-footer {
+.footer {
   box-sizing: border-box;
   height: 100px;
   background-color: #eee;
