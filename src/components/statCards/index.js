@@ -17,6 +17,11 @@ const StatCards = () => {
               </div>
             </Row>
             <Divider />
+            <Row>
+              <div className='mui--text-dark-secondary mui--text-subhead'>
+                <p>Victims of severe flooding are BAHSE students</p>
+              </div>
+            </Row>
           </div>
         </Col>
         <Col md="6">
@@ -27,6 +32,11 @@ const StatCards = () => {
                 </div>
               </Row>
               <Divider />
+              <Row>
+              <div className='mui--text-dark-secondary mui--text-subhead'>
+                <p>Victims of severe flooding are TCE students</p>
+              </div>
+            </Row>
             </div>
         </Col>
       </Row>
@@ -39,6 +49,11 @@ const StatCards = () => {
                 </div>
               </Row>
               <Divider />
+              <Row>
+              <div className='mui--text-dark-secondary mui--text-subhead'>
+                <p>Victims of severe flooding are BATCE 6th Form students</p>
+              </div>
+            </Row>
             </div>
         </Col>
         <Col md="6">
@@ -49,6 +64,11 @@ const StatCards = () => {
                 </div>
               </Row>
               <Divider />
+              <Row>
+              <div className='mui--text-dark-secondary mui--text-subhead'>
+                <p>Victims of severe flooding are staff</p>
+              </div>
+            </Row>
             </div>
         </Col>
       </Row>
