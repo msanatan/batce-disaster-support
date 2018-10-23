@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from 'muicss/lib/react/container';
 import Header from '../header/index';
+import './mui.css';
 import containerStyles from './pageContainer.module.css';
 
 const PageContainer = (props) => {
