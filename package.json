@@ -1,11 +1,12 @@
 {
-  "name": "BATCE Disaster Support",
+  "name": "batce-disaster-support",
   "description": "An alumni initiative to provide financial support to BATCE staff and students who are flood victims",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "updateTheme": "sass themes/custom.scss > src/components/pageContainer/mui.css"
   },
   "dependencies": {
     "gatsby": "^2.0.0",
