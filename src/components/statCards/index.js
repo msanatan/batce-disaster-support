@@ -3,6 +3,7 @@ import Container from 'muicss/lib/react/container';
 import Row from 'muicss/lib/react/row';
 import Col from 'muicss/lib/react/col';
 import Divider from 'muicss/lib/react/divider';
+import CountUp from 'react-countup';
 import containerStyles from './statCards.module.css';
 
 const StatCards = () => {
@@ -13,7 +14,13 @@ const StatCards = () => {
           <div className={containerStyles.card + ' mui--z1'}>
             <Row>
               <div className={containerStyles.label}>
-                <p className={containerStyles.victimCount}>20</p>
+                <CountUp
+                  className={containerStyles.victimCount}
+                  end={20}
+                  delay={0}
+                  duration={1}
+                  useEasing={false}
+                  />
               </div>
             </Row>
             <Divider />
@@ -28,7 +35,13 @@ const StatCards = () => {
           <div className={containerStyles.card + ' mui--z1'}>
               <Row>
                 <div className={containerStyles.label}>
-                  <p className={containerStyles.victimCount}>6</p>
+                <CountUp
+                  className={containerStyles.victimCount}
+                  end={6}
+                  delay={0}
+                  duration={1}
+                  useEasing={false}
+                  />
                 </div>
               </Row>
               <Divider />
@@ -45,7 +58,13 @@ const StatCards = () => {
           <div className={containerStyles.card + ' mui--z1'}>
               <Row>
                 <div className={containerStyles.label}>
-                  <p className={containerStyles.victimCount}>3</p>
+                <CountUp
+                  className={containerStyles.victimCount}
+                  end={3}
+                  delay={0}
+                  duration={1}
+                  useEasing={false}
+                  />
                 </div>
               </Row>
               <Divider />
@@ -60,7 +79,13 @@ const StatCards = () => {
           <div className={containerStyles.card + ' mui--z1'}>
               <Row>
                 <div className={containerStyles.label}>
-                  <p className={containerStyles.victimCount}>6</p>
+                <CountUp
+                  className={containerStyles.victimCount}
+                  end={6}
+                  delay={0}
+                  duration={1}
+                  useEasing={false}
+                  />
                 </div>
               </Row>
               <Divider />
