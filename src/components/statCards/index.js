@@ -2,10 +2,11 @@ import React from 'react';
 import Container from 'muicss/lib/react/container';
 import Row from 'muicss/lib/react/row';
 import StatCard from '../statCard/index';
+import containerStyles from './statCards.module.css';
 
 const StatCards = () => {
   return (
-    <Container fluid={true}>
+    <Container className={containerStyles.cardContainer} fluid={true}>
       <Row>
         <StatCard
           count={20}

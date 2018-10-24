@@ -8,7 +8,7 @@ import containerStyles from './statCard.module.css';
 
 const StatCard = (props) => {
   return (
-    <Col md="6">
+    <Col md="3">
       <div className={containerStyles.card + ' mui--z1'}>
         <Row>
           <div className={containerStyles.label}>
@@ -24,7 +24,7 @@ const StatCard = (props) => {
         <Divider />
         <Row>
           <div className='mui--text-dark-secondary mui--text-subhead'>
-            <p>{props.description}</p>
+            <h5>{props.description}</h5>
           </div>
         </Row>
       </div>
