@@ -321,7 +321,7 @@ a {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .home_banner_area {
-  background: url(../img/clean-logo.png) no-repeat center bottom;
+  background: url(../img/banner-background.png) no-repeat center bottom;
   /* background-color: #000; */
   position: relative;
   z-index: 1;
