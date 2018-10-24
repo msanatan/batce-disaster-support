@@ -16,7 +16,7 @@ const Header = () => {
                 <ul className='mui-list--inline mui--text-body2'>
                   <li><Link to="/about/">About</Link></li>
                   <li><Link to="/donate/">Donate</Link></li>
-                  <li><Link to="/contact/">Contact</Link></li>
+                  <li><Link to="/contributors/">Contributors</Link></li>
                 </ul>
               </td>
             </tr>
