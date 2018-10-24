@@ -3245,3 +3245,8 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+.no-link-style, .no-link-style:hover, .no-link-style:visited {
+  text-decoration: inherit;
+  color: inherit;
+}
